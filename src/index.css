@@ -1,0 +1,44 @@
+/* ---------------------------------------------------- */
+/* 1. Tailwind directives                              */
+/* ---------------------------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------- */
+/* 2. Your custom global/base styles                   */
+/* ---------------------------------------------------- */
+@layer base {
+  /* 2.1 — Root typography */
+  html {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  /* 2.2 — Reset body margin */
+  body {
+    margin: 0;
+  }
+
+  /* 2.3 — Link styling */
+  a {
+    @apply font-medium text-teal-600 no-underline;
+  }
+  a:hover {
+    @apply text-indigo-500;
+  }
+
+  /* 2.4 — Button reset & basic styles */
+  button {
+    @apply rounded-lg border border-transparent px-4 py-2 text-base font-medium
+           bg-gray-800 text-white transition-colors;
+  }
+  button:hover {
+    @apply border-indigo-500;
+  }
+  button:focus,
+  button:focus-visible {
+    @apply outline-none ring-2 ring-indigo-500;
+  }
+}
