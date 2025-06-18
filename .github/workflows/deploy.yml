@@ -57,7 +57,7 @@ jobs:
 
       # Upload the build output as a Pages artifact
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           # Path to the directory you created in the build step
           path: ./dist            # change if your build dir is different
@@ -65,4 +65,4 @@ jobs:
       # Deploy to the gh-pages branch
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
