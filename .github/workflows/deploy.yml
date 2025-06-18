@@ -34,3 +34,35 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  deploy:
+    needs: build        # wait for build to finish
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install Node and dependencies (adjust version as needed)
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install & build
+        run: |
+          npm ci
+          npm run build           # creates ./dist (or ./build)
+
+      # Upload the build output as a Pages artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Path to the directory you created in the build step
+          path: ./dist            # change if your build dir is different
+
+      # Deploy to the gh-pages branch
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3
