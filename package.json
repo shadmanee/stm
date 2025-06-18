@@ -1,6 +1,5 @@
 {
-  "homepage": "https://shadmanee.github.io/stm",
-  "name": "portfolio",
+  "name": "home",
   "version": "0.0.0",
   "private": true,
   "scripts": {
