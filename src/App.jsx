@@ -433,7 +433,7 @@ export default function App() {
                     </svg>
                     <span>Junior Data Scientist at IDARE, Houston, TX</span>
                   </li>
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -453,7 +453,7 @@ export default function App() {
                     <span>
                       MSc in CSE at BRAC University, Dhaka, Bangladesh
                     </span>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
@@ -480,7 +480,7 @@ export default function App() {
                   View Projects
                 </a> */}
                 <a
-                  href="/stm/files/Shadmanee_Tasneem_Mulk_CV.pdf"
+                  href="/stm/files/CV_of_Shadmanee_Tasneem_Mulk_2025.pdf"
                   download
                   className={`${
                     darkMode
@@ -514,8 +514,9 @@ export default function App() {
                   darkMode ? "text-gray-300" : "text-gray-600"
                 }`}
               >
-                I am currently pursuing my Master of Science in Computer Science
-                and Engineering at BRAC University while working as a Junior
+                {/* pursuing my Master of Science in Computer Science
+                and Engineering at BRAC University while */}
+                I am currently working as a Junior
                 Data Scientist at{" "}
                 <a
                   href="https://idare.io/"
@@ -580,17 +581,15 @@ export default function App() {
                 }`}
               >
                 When I'm not working, you'll find me geeking out over{" "}
-                <a
+                {/* <a
                   href=""
                   className={`${
                     darkMode
                       ? "text-teal-400 hover:text-teal-300"
                       : "text-teal-600 hover:text-teal-700"
                   } inline-flex items-center`}
-                >
-                  books and TV shows
-                </a>{" "}
-                or poorly crocheting bucket hats.
+                > */}
+                  books and TV shows or poorly crocheting bucket hats.
               </p>
             </div>
           </div>
@@ -604,7 +603,7 @@ export default function App() {
 
           <div className="space-y-8">
             {/* Example News Item */}
-            <div
+            {/* <div
               className={`${
                 darkMode ? "bg-gray-700" : "bg-white"
               } p-6 rounded-lg shadow-md`}
@@ -619,7 +618,7 @@ export default function App() {
               <p className={darkMode ? "text-gray-300" : "text-gray-600"}>
                 I'm starting my Masters in CSE at BRAC University!
               </p>
-            </div>
+            </div> */}
             <div
               className={`${
                 darkMode ? "bg-gray-700" : "bg-white"
@@ -875,11 +874,11 @@ export default function App() {
                     darkMode
                       ? "text-teal-400 hover:text-teal-300"
                       : "text-teal-600 hover:text-teal-700"
-                  } underline`}
+                  }`}
                 >
                   Exploring Dimensionality Reduction Techniques in Word
                   Classification using Surface EMG Signals (ICCIT 2024)
-                </a>
+                </a> <a href="https://drive.google.com/file/d/1LSAfbBKucutowf9hHk5Jg7NrnNhkxrQn/view?usp=drive_link">[pdf]</a>
               </li>
               <li>
                 <a
@@ -888,11 +887,11 @@ export default function App() {
                     darkMode
                       ? "text-teal-400 hover:text-teal-300"
                       : "text-teal-600 hover:text-teal-700"
-                  } underline`}
+                  }`}
                 >
                   Unlocking Voices: Assessing Usability and Accessibility of
                   Mobile Apps for Stutter Reduction (ICCIT 2024)
-                </a>
+                </a> <a href="https://drive.google.com/file/d/1DWBrc-YX5RqhMvGG_JZU1m_TVGNOhv8o/view?usp=drive_link">[pdf]</a>
               </li>
               <li>
                 <a
@@ -901,11 +900,11 @@ export default function App() {
                     darkMode
                       ? "text-teal-400 hover:text-teal-300"
                       : "text-teal-600 hover:text-teal-700"
-                  } underline`}
+                  }`}
                 >
                   PPDHero: Requirements Elicitation and Development of a System
                   to Empower New Mothers on Postpartum Depression (ISDA 2023)
-                </a>
+                </a> <a href="https://drive.google.com/file/d/144WZxaBb5GJO96JlPoS-lS4xkHeHO70h/view?usp=drive_link">[pdf]</a>
               </li>
             </ul>
           </div>
@@ -980,7 +979,7 @@ export default function App() {
                         </span>
                       ))}
                     </div>
-                    <a
+                    {/* <a
                       href={project.link}
                       className={`${
                         darkMode
@@ -1003,7 +1002,7 @@ export default function App() {
                           d="M9 5l7 7-7 7"
                         />
                       </svg>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               )
