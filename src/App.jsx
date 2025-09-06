@@ -480,7 +480,7 @@ export default function App() {
                   View Projects
                 </a> */}
                 <a
-                  href="/stm/files/CV_of_Shadmanee_Tasneem_Mulk_2025.pdf"
+                  href="/stm/files/ShadmaneeCV2025.pdf"
                   download
                   className={`${
                     darkMode
