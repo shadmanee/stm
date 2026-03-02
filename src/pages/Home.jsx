@@ -642,7 +642,7 @@ export default function Home() {
                   View Projects
                 </a> */}
                 <a
-                  href="/stm/files/hadmanee Tasneem Mulk - CV.pdf"
+                  href="/stm/files/Shadmanee Tasneem Mulk - CV.pdf"
                   download
                   className={`${
                     darkMode
@@ -670,9 +670,7 @@ export default function Home() {
             <p
               className={`text-lg ${darkMode ? "text-gray-300" : "text-gray-600"}`}
             >
-              I'm currently pursuing my MS in Computer Science & Engineering at
-              BRAC University. My research interests span LLMs, retrieval/RAG
-              and human-centered AI.
+              I'm currently pursuing my MS in Computer Science & Engineering at BRAC University. My research interests span LLMs, retrieval/RAG, data science and human-centered AI.
             </p>
 
             <p
@@ -689,18 +687,13 @@ export default function Home() {
               >
                 IDARE
               </a>
-              , a Houston-based AutoML startup. There, I built production-ready
-              ML pipelines, automated ETL workflows, and a RAG chatbot that
-              retrieves from PDFs, spreadsheets and cloud datasets to support
-              decision-making in the oil and gas industries.
+              , a Houston-based AutoML startup. There, I built production-ready ML pipelines, automated ETL workflows, and a RAG chatbot that retrieves from PDFs, spreadsheets and cloud datasets to support decision-making in the oil and gas industries.
             </p>
 
             <p
               className={`text-lg ${darkMode ? "text-gray-300" : "text-gray-600"}`}
             >
-              I earned my BS in CSE from the Military Institute of Science and
-              Technology (MIST) in April 2024 and have published at
-              international conferences including{" "}
+              I earned my BS in CSE from the Military Institute of Science and Technology (MIST) in April 2024 and have published at international conferences including{" "}
               <a
                 href="https://www.mirlabs.org/isda23/"
                 className={`${
@@ -722,8 +715,7 @@ export default function Home() {
               >
                 ICCIT 2024
               </a>
-              , where I (along with my team) also received the Best Technical
-              Presentation Award.
+              , where I (along with my team) also received the Best Technical Presentation Award.
             </p>
           </div>
         </div>
