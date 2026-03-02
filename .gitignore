@@ -23,4 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-*.pdf
+src/assets/private
+
+# *.pdf
+# *.jpg
+# *.jpeg
