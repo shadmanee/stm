@@ -284,12 +284,12 @@ export default function Home() {
   const form = useRef();
 
   useEffect(() => {
-    emailjs.init("PM0KSpx2JfOFAhwMv");
+    emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
   }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_wtzjnzt", "template_3kvx8uj", form.current).then(
+    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current).then(
       () => {
         alert("Message Sent to Shadmanee!");
         console.log("SUCCESS!");

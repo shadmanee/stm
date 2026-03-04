@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 
 src/assets/private
+.env
 
 # *.pdf
 # *.jpg
