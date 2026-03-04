@@ -5,6 +5,7 @@
   "rewrites": [
     { "source": "/stm/files/(.*)", "destination": "/files/$1" },
     { "source": "/stm/images/(.*)", "destination": "/images/$1" },
+    { "source": "/stm/assets/(.*)", "destination": "/assets/$1" },
     { "source": "/stm/(.*)", "destination": "/index.html" }
   ]
 }
