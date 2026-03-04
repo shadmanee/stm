@@ -5,7 +5,7 @@ import About from './pages/About';
 function App() {
   return (
     <Routes>
-      <Route path="/stm/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       {/* more routes to be added */}
     </Routes>
   );
