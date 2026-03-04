@@ -1,3 +1,9 @@
 {
-  "redirects": [{ "source": "/", "destination": "/stm/", "permanent": true }]
+  "redirects": [
+    { "source": "/", "destination": "/stm/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/stm/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/stm/(.*)", "destination": "/index.html" }
+  ]
 }
